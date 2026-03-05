@@ -72,7 +72,7 @@ export default function Schedule() {
                     </div>
                     <div>
                         <h1 className="text-2xl font-bold tracking-tight text-slate-900">2026 暑假讀書班複習進度表</h1>
-                        <p className="text-sm text-slate-500 font-medium">全真教育 / AllTrue Study Plan</p>
+                        <p className="text-sm text-slate-500 font-medium">全真教育 / 2026國二升國三</p>
                     </div>
                 </div>
 
