@@ -67,8 +67,12 @@ export default function Schedule() {
             {/* Header section */}
             <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4 bg-white p-4 rounded-2xl shadow-sm border border-slate-100">
                 <div className="flex items-center gap-3">
-                    <div className="p-3 bg-indigo-100 text-indigo-600 rounded-xl">
-                        <Calendar className="w-6 h-6" />
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl overflow-hidden shrink-0 shadow-sm border border-slate-200">
+                        <img
+                            src="https://image2url.com/r2/default/images/1772732194593-b902ed6f-a0c7-4a70-9c15-99b5c0e17888.jpg"
+                            alt="全真教育"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                     <div>
                         <h1 className="text-2xl font-bold tracking-tight text-slate-900">2026 暑假讀書班複習進度表</h1>
