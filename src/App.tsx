@@ -4,18 +4,14 @@
  */
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import PainPoints from './components/PainPoints';
+import Schedule from './components/Schedule';
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <main>
-        <HeroSection />
-        <PainPoints />
-      </main>
+    <div className="min-h-screen bg-slate-100 py-8">
+      <Schedule />
     </div>
   );
 }
+
+export default App;
